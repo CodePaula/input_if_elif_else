@@ -29,15 +29,15 @@ else:
 # adding the requested information
 shift = input("In which shift do you study? Type M for morning, V for vespertine or N for night. ")
 
-# the conditionals will test if the typed answer corresponds with the accepted options of the variable "shift" (M, V ou N)
-# if it is M, the outcome will be "Good morning!"
+# the conditionals will test if the typed answer corresponds with the accepted options of the variable "shift" (M, V or N)
+# if it's M, the outcome will be "Good morning!"
 if shift == "M":
     print("Good morning!")
 # as more than one conditional needs to be tested, we use elif
-# if it is V, the outcome will be "Good afternoon!"
+# if it's V, the outcome will be "Good afternoon!"
 elif shift == "V":
     print("Good afternoon!")
-# if it is N, the outcome will be "Good evening!"
+# if it's N, the outcome will be "Good evening!"
 elif shift == "N":
     print("Good evening!")
 # if none of the conditionals were satisfied (M, V or N), the outcome will be invalid
