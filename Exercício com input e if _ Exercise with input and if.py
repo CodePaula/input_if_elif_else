@@ -29,7 +29,7 @@ else:
 # adding the requested information
 shift = input("In which shift do you study? Type M for morning, V for vespertine or N for night. ")
 
-# the conditionals will test if the typed answer corresponds with the accepted options of the variable "shift" (M, V or N)
+# the conditionals will test if the typed answer corresponds with the accepted options for the variable "shift" (M, V or N)
 # if it's M, the outcome will be "Good morning!"
 if shift == "M":
     print("Good morning!")
