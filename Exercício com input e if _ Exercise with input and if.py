@@ -18,7 +18,7 @@ elif turno == "V":
 # se for N, o resultado será "Boa noite!"
 elif turno == "N":
     print("Boa noite!")
-# se nenhuma das condições forem atendidas (M, V ou N), o resultado será inválido
+# se nenhuma das condições for atendida (M, V ou N), usamos else, e o resultado será inválido
 else:
     print("Valor inválido.")
 
@@ -40,7 +40,7 @@ elif shift == "V":
 # if it's N, the outcome will be "Good evening!"
 elif shift == "N":
     print("Good evening!")
-# if none of the conditionals were satisfied (M, V or N), the outcome will be invalid
+# if none of the conditionals were satisfied (M, V or N), we use else, and the outcome will be invalid
 else:
     print("Invalid value.")
 
